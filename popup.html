@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            width: 300px;
+            padding: 40px 8px;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            border-radius: 8px;
+            background: linear-gradient(347deg, #121212 7.56%, #252525 92.44%);
+            color: #13FF99;
+            text-align: center;
+            font-family: "Roboto";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        .extension-popup-input {
+            display: flex;
+            padding: 8px 12px;
+            align-items: center;
+            gap: 10px;
+            align-self: stretch;
+            border-radius: 999px;
+            border: 1px solid #555;
+            background: var(--grey-700, #3D3D3D);
+        }
+
+        .extension-popup-input input {
+            border: none;
+            outline: none;
+            font-size: 14px;
+            background: transparent;
+            color: #13FF99;
+            flex-grow: 1;
+        }
+        .extension-popup-btn {
+            display: flex;
+            height: 40px;
+            border: none;
+            padding: 10px 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            align-self: stretch;
+            border-radius: 999px;
+            background: #17E88E;
+            cursor: pointer;
+        }
+        .extension-popup-btn.login-falied {
+            background-color: #FF0000;
+        }
+        .extension-popup-btn:hover {
+            background: #89ffcc;
+        }
+    </style>
+</head> 
+<body>
+    <span>Welcome</span>
+    <div class = 'extension-popup-input'>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_47_4858)">
+            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 6C13.93 6 15.5 7.57 15.5 9.5C15.5 11.43 13.93 13 12 13C10.07 13 8.5 11.43 8.5 9.5C8.5 7.57 10.07 6 12 6ZM12 20C9.97 20 7.57 19.18 5.86 17.12C7.55 15.8 9.68 15 12 15C14.32 15 16.45 15.8 18.14 17.12C16.43 19.18 14.03 20 12 20Z" fill="#13FF99"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_47_4858">
+            <rect width="24" height="24" fill="white"/>
+            </clipPath>
+            </defs>
+        </svg>
+        <input id = "user-uid" placeholder= "Binded MEXC UID">
+    </div>
+    <div class = 'extension-popup-input'>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_47_4870)">
+            <path d="M2 17H22V19H2V17ZM3.15 12.95L4 11.47L4.85 12.95L6.15 12.2L5.3 10.72H7V9.22H5.3L6.15 7.75L4.85 7L4 8.47L3.15 7L1.85 7.75L2.7 9.22H1V10.72H2.7L1.85 12.2L3.15 12.95ZM9.85 12.2L11.15 12.95L12 11.47L12.85 12.95L14.15 12.2L13.3 10.72H15V9.22H13.3L14.15 7.75L12.85 7L12 8.47L11.15 7L9.85 7.75L10.7 9.22H9V10.72H10.7L9.85 12.2ZM23 9.22H21.3L22.15 7.75L20.85 7L20 8.47L19.15 7L17.85 7.75L18.7 9.22H17V10.72H18.7L17.85 12.2L19.15 12.95L20 11.47L20.85 12.95L22.15 12.2L21.3 10.72H23V9.22Z" fill="#13FF99"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_47_4870">
+            <rect width="24" height="24" fill="white"/>
+            </clipPath>
+            </defs>
+        </svg>      
+        <input id = "user-pwd" placeholder= "Password" type = "password" autocomplete="off">
+    </div>
+    <div style = "width: 100%; display: flex; flex-direction: row; gap: 8px;">
+        <button id = "login-btn" class = 'extension-popup-btn' style = "width: 70%; color: #444;">
+            <span style = "font-size: 14px; font-weight: bold; color:#444">Log in</span>
+        </button>
+        <button id = "guest-btn" class = 'extension-popup-btn' style = "width: 30%; color: #000000; background: #444;" title="Some feature will be restricted">
+            <span style="font-size: 14px; font-weight: bold; color:#000000">Guess</span>
+        </button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
