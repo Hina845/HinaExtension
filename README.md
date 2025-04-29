@@ -77,5 +77,8 @@ You can drag and drop the extension using **⋮⋮** icon, or resize it as how y
 			- **Hover**: Hover to the signal expose all information of that signal
 			- **Chart Button**: Open this signal to **Mini Chart**
 			- **Add Button**: Add this signal to **Manual Order**
+			- **Border Color**:
+				- Yellow: This order was triggered, value will be fixed.
+      				- Cyan: This order is waiting, value of signal can be changed based on market.
 - **Setting**
 	-  Read In-app for the information. Hina too laze to re-write here...![enter image description here](https://imgur.com/RgvZTpe.png)
