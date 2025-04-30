@@ -9,6 +9,18 @@
 
 ---
 
+How to install:
+  - In browser's extension setting, open developer mode
+  - Click **Load Unpacked** and choose this folder
+  - The folder should contains following files:
+    - icons/
+    - README.md (this)
+    - manifest.json
+    - popup.html
+    - popup.js
+
+---
+
 ## Overview
 
 This is how the extension looks:
