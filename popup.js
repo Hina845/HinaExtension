@@ -1,5 +1,5 @@
-// const server = 'https://hina-trading-tools-production.up.railway.app'
-const server = 'http://localhost:7777';
+const server = 'https://hina-trading-tools-production.up.railway.app'
+// const server = 'http://localhost:7777';
 
 async function POST(url, body = {}, query = {}) {
     url = query ? `${url}?${new URLSearchParams(query)}` : url;
