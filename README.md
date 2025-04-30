@@ -3,6 +3,7 @@
 - Version: 1.0.1-alpha
 - Author: Hina Shii
 - Buy Hina a lambo: Mexc UID: 84504541
+- Please do not public without Hina's permission!
 
 **Note**: This application is in developing and likely contains bugs. Please contract Hina for any bugs during experience. Also, if you wish to add some feature, contract Hina too! Hina will very appreciate~~
 
