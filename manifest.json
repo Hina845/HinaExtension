@@ -10,9 +10,6 @@
         "storage",
         "cookies"
     ],
-    "background": {
-        "service_worker": "background.js"
-    },
     "action": {
         "default_popup": "popup.html"
     },
@@ -22,11 +19,5 @@
         "48": "icons/icon-48.png",
         "128": "icons/icon-128.png"
     },
-    "host_permissions": ["<all_urls>"],
-    "content_scripts": [
-        {
-            "matches": ["<all_urls>"],
-            "js": ["content.js"]
-        }
-    ]
+    "host_permissions": ["<all_urls>"]
 }
