@@ -2,17 +2,17 @@
 
 - Version: 1.0.1-alpha
 - Author: Hina Shii
-- Buy me a Coffee:
-	- Mexc UID: 84504541
+- Buy Hina a lambo: Mexc UID: 84504541
 
 **Note**: This application is in developing and likely contains bugs. Please contract Hina for any bugs during experience. Also, if you wish to add some feature, contract Hina too! Hina will very appreciate~~
 
 ## Overview:
 This is how the extension look like...
-![enter image description here](https://i.imgur.com/a02bVCx.png)![enter image description here](https://i.imgur.com/JkYeur2.png)
+![enter image description here](https://i.imgur.com/a02bVCx.png)
+![enter image description here](https://i.imgur.com/JkYeur2.png)
 
-
-You can drag and drop the extension using **⋮⋮** icon, or resize it as how you like, but it can't be too small. or too big...![enter image description here](https://imgur.com/zPhbw9f.png)
+You can drag and drop the extension using **⋮⋮** icon, or resize it as how you like, but it can't be too small. or too big...!
+[enter image description here](https://imgur.com/zPhbw9f.png)
 
 ## Features
 - Toolbar (From left to right):
@@ -28,8 +28,10 @@ You can drag and drop the extension using **⋮⋮** icon, or resize it as how y
 	- **SC01**
 		- This button will instantly place an order based on **Risk**, **Entry Price** and **Stoploss Price**, which can be determine in following priority: **Manual Order** -> **Fibonacci Retracement** -> **Long/Short Position**
 			- Manual Order: When Manual Order tab is opening, this button will place order based on value of it.
-			- Fibonacci Retracement: Double click to any Fibonacci Retracement in the chart, and swith to *Coordinate* tab, this button will place order based on value of it. You can modify the fibo order in the **Setting**![enter image description here](https://imgur.com/OvwYsUB.png)
-			- Long/Short Position: Double click to any Long Position or Short Position in the chart and switch to *Inputs* tab, this button will place order based on value of it![enter image description here](https://imgur.com/pwFCDwZ.png)
+			- Fibonacci Retracement: Double click to any Fibonacci Retracement in the chart, and swith to *Coordinate* tab, this button will place order based on value of it. You can modify the fibo order in the **Setting**
+   			- ![enter image description here](https://imgur.com/OvwYsUB.png)
+			- Long/Short Position: Double click to any Long Position or Short Position in the chart and switch to *Inputs* tab, this button will place order based on value of it
+   			- ![enter image description here](https://imgur.com/pwFCDwZ.png)
 	- **SC02**:
 		- Place two **SC01** orders, the first one is the same as **SC01** but the second will place *reverse* order. The Entry price of the second order is the Stoploss price of the first order, and the Stoploss price of 2nd is the Entry price of 1st. If the 1st one is Long, then the 2nd one will be Short. Don't worry,  the Takeprofit price will be adjusted too!
 	- **Mini Chart Button**
@@ -42,7 +44,8 @@ You can drag and drop the extension using **⋮⋮** icon, or resize it as how y
 		- Hide the extension. You can open the extension again by clicking the button on the bottom-right.
 - **Mini Chart (from left to right)**
 	- ![enter image description here](https://imgur.com/XHVLzi1.png)
-	- **Indicator Button (fx)**: open a popup for Indicator Setting![enter image description here](https://imgur.com/JSohcMY.png)
+	- **Indicator Button (fx)**: open a popup for Indicator Setting
+ 	- ![enter image description here](https://imgur.com/JSohcMY.png)
 		- At this time, only 2 indicators is available: RSI and EMA. You can turn on or off them by clicking **RSI** or **EMA** button
 	- **Symbol Search Bar**
 		- Insert a symbol to this field, the candlestick chart of that symbol will be shown on canvas (data get from mexc.com)
@@ -81,4 +84,5 @@ You can drag and drop the extension using **⋮⋮** icon, or resize it as how y
 				- Yellow: This order was triggered, value will be fixed.
       				- Cyan: This order is waiting, value of signal can be changed based on market.
 - **Setting**
-	-  Read In-app for the information. Hina too laze to re-write here...![enter image description here](https://imgur.com/RgvZTpe.png)
+	-  Read In-app for the information. Hina too laze to re-write here...
+ 	- ![enter image description here](https://imgur.com/RgvZTpe.png)
