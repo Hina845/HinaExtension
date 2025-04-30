@@ -8,12 +8,13 @@
 **Note**: This application is in developing and likely contains bugs. Please contract Hina for any bugs during experience. Also, if you wish to add some feature, contract Hina too! Hina will very appreciate~~
 
 ## Overview:
-This is how the extension look like...
-![enter image description here](https://i.imgur.com/a02bVCx.png)
-![enter image description here](https://i.imgur.com/JkYeur2.png)
+- This is how the extension look like...
 
-You can drag and drop the extension using **⋮⋮** icon, or resize it as how you like, but it can't be too small. or too big...!
-[enter image description here](https://imgur.com/zPhbw9f.png)
+	- ![enter image description here](https://i.imgur.com/a02bVCx.png)
+	- ![enter image description here](https://i.imgur.com/JkYeur2.png)
+
+You can drag and drop the extension using **⋮⋮** icon, or resize it as how you like, but it can't be too small. or too big...
+![enter image description here](https://imgur.com/zPhbw9f.png)
 
 ## Features
 - Toolbar (From left to right):
