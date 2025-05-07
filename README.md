@@ -6,7 +6,7 @@
 	- Mexc UID: 84504541
 ---
 - [English](#english)
-- [Tiếng Việt](#tieng-viet)
+- [Tiếng Việt](#vietnamese)
 
 ---
 # English
@@ -88,7 +88,7 @@ You can drag and drop the extension using **⋮⋮** icon, or resize it as how y
 - **Setting**
 	-  Read In-app for the information. Hina too laze to re-write here...![enter image description here](https://imgur.com/RgvZTpe.png)
 
-# Tiếng Việt
+# Vietnamese
 
 -  **Phiên bản**: 1.0.2-alpha
 -  **Tác giả**: Hina Shii
