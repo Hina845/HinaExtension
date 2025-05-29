@@ -1,6 +1,6 @@
 # Hina Extension - HEX
 
-- Version: 1.0.2-alpha
+- Version: 1.0.3
 - Author: Hina Shii
 - Buy me a Coffee:
 	- Mexc UID: 84504541
