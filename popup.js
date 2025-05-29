@@ -63,7 +63,10 @@ function LoadExtension(response, server) {
                 .forEach(async (component) => {
                     await fetch_GET(`/public/components/${component.html}`, { token: response.token })
                     .then(response => response.text())
-                    .then(data => {
+                    .then(async data => {
+                        while (!document.getElementById(component.id)) {
+                            await new Promise(resolve => setTimeout(resolve, 100));
+                        }
                         document.getElementById(component.id).innerHTML = data;
                     })
                 })
