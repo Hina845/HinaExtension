@@ -1,4 +1,4 @@
-const server = 'https://hina-trading-tools-production.up.railway.app'
+const server = "https://hina-trading-tools.onrender.com"
 // const server = 'http://localhost:7777';
 
 async function POST(url, body = {}, query = {}) {
@@ -82,8 +82,10 @@ function LoadExtension(response, server) {
         if (!document.getElementById('hina-ext-script')) await fetch_GET(`/public/extension-script.js`, { token: response.token })
         .then(response => response.text())
         .then(js => {
-            script.src = URL.createObjectURL(new Blob([js], { type: 'application/javascript' }));
-            document.body.appendChild(script);
+            setTimeout(() => {
+                script.src = URL.createObjectURL(new Blob([js], { type: 'application/javascript' }));
+                document.body.appendChild(script);
+            }, 1000);
         })
 
     }
